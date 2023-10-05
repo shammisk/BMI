@@ -1,6 +1,6 @@
 BMI-Calculator
 
-![1](https://github.com/shammisk/BMI-Calculator/assets/99946678/b156de77-616d-4d28-9009-25b9180a9a01)  |  ![3](https://github.com/shammisk/BMI-Calculator/assets/99946678/400d11a7-d179-4f66-88c7-c5e5a1634dff)
+![1](https://github.com/shammisk/BMI-Calculator/assets/99946678/b156de77-616d-4d28-9009-25b9180a9a01)    ![3](https://github.com/shammisk/BMI-Calculator/assets/99946678/400d11a7-d179-4f66-88c7-c5e5a1634dff)
 
 
 
