@@ -24,6 +24,11 @@ top_image.place(x=20,y=5)
 #main Label
 Label(root,width=72,height=18,bg='lightblue').pack(side=BOTTOM)
 
+#box image
+box=PhotoImage(file="img/box.png")
+Label(root,image=box).place(x=20,y=110)
+Label(root,image=box).place(x=240,y=110)
+
 
 
 
