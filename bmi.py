@@ -12,7 +12,9 @@ root.geometry('470x580+300+200')
 root.resizable(False, False)
 root.configure(bg="#f0f1f5")
 
-
+#icon image
+image_icon=PhotoImage(file="img/bmi.png")
+root.iconphoto(False,image_icon)
 
 
 
