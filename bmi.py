@@ -54,7 +54,27 @@ style.configure('TScale',background='white')
 slider=ttk.Scale(root,from_=0,to=220,orient="horizontal",style='TScale', command=slider_changed,variable=current_value)
 slider.place(x=80,y=250)
 
+#Weight
+current_value2=tk.DoubleVar()
+def get_current_value2():
+    return '{: .2f}'.format(current_value2.get())
 
+def slider_changed2(event):
+    Weight.set(get_current_value2())
+style2=ttk.Style()
+style2.configure('TScale',background='white')
+slider2=ttk.Scale(root,from_=0,to=200,orient="horizontal",style='TScale', command=slider_changed2,variable=current_value2)
+slider2.place(x=300,y=250)
+
+Height=StringVar()
+Weight=StringVar()
+height=Entry(root,textvariable=Height,width=5,font='arial 50', bg='#fff',fg='#000',bd=0, justify=CENTER)
+height.place(x=35,y=160)
+Height.set(get_current_value())
+
+weight=Entry(root,textvariable=Weight,width=5,font='arial 50', bg='#fff',fg='#000',bd=0, justify=CENTER)
+weight.place(x=255,y=160)
+Weight.set(get_current_value2())
 
 
 
