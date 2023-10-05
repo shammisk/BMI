@@ -21,6 +21,24 @@ def BMI():
     bmi=round(float(w/m**2),1)
     label1.config(text=bmi)
 
+    if bmi<=18.5:
+        label2.config(text="Underweight!")
+        label3.config(text="Consult a healthcare professional to \n address concerns about being \n underweight.!")
+
+    elif bmi>18.5 and bmi<=25:
+        label2.config(text="Normal!")
+        label3.config(text="Maintaining a healthy weight is essential \n for overall well-being.!")
+
+    elif bmi>25 and bmi<=30:
+        label2.config(text="Overweight!")
+        label3.config(text="Consider adopting a balanced \n diet and exercise routine to manage \n excess weight.!")
+
+    else:
+        label2.config(text="Obes!")
+        label3.config(text="Seek medical guidance and support \n to address obesity and its associated \n health risks.!")
+
+
+
 #icon image
 image_icon=PhotoImage(file="img/bmi.png")
 root.iconphoto(False,image_icon)
