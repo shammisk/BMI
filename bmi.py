@@ -76,6 +76,10 @@ weight=Entry(root,textvariable=Weight,width=5,font='arial 50', bg='#fff',fg='#00
 weight.place(x=255,y=160)
 Weight.set(get_current_value2())
 
+#second image
+secondimage=Label(root,bg='lightblue')
+secondimage.place(x=70,y=530)
+
 
 
 
