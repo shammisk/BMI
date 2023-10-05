@@ -6,7 +6,7 @@ from PIL import Image,ImageTk
 
 root= Tk()
 
-root= Tk()
+
 root.title('BMI calculator')
 root.geometry('470x580+300+200')
 root.resizable(False, False)
