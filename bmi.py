@@ -93,6 +93,13 @@ label2.place(x=260,y=450)
 label3=Label(root,font='arial 10 bold', bg='lightblue',fg='black')
 label3.place(x=180,y=500)
 
+labelh=Label(root,text='Height (cm)',font='arial 10 bold', fg='black')
+labelh.place(x=80,y=130)
+
+
+labelw=Label(root,text='Weight (kg)',font='arial 10 bold', fg='black')
+labelw.place(x=300,y=130)
+
 
 
 
