@@ -33,6 +33,29 @@ Label(root,image=box).place(x=240,y=110)
 scale=PhotoImage(file='img/scale.png')
 Label(root,image=scale,bg='lightblue').place(x=20,y=310)
 
+#Height
+current_value=tk.DoubleVar()
+def get_current_value():
+    return '{: .2f}'.format(current_value.get())
+
+def slider_changed(event):
+    Height.set(get_current_value())
+
+    size=int(float(get_current_value()))
+    img=(Image.open('img/man.png'))
+    resized_image=img.resize((50,10+size))
+    photo2=ImageTk.PhotoImage(resized_image)
+    secondimage.config(image=photo2)
+    secondimage.place(x=70,y=550-size)
+    secondimage.image=photo2
+
+style=ttk.Style()
+style.configure('TScale',background='white')
+slider=ttk.Scale(root,from_=0,to=220,orient="horizontal",style='TScale', command=slider_changed,variable=current_value)
+slider.place(x=80,y=250)
+
+
+
 
 
 
