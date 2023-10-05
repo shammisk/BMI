@@ -29,6 +29,10 @@ box=PhotoImage(file="img/box.png")
 Label(root,image=box).place(x=20,y=110)
 Label(root,image=box).place(x=240,y=110)
 
+#scale image
+scale=PhotoImage(file='img/scale.png')
+Label(root,image=scale,bg='lightblue').place(x=20,y=310)
+
 
 
 
