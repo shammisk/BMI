@@ -16,6 +16,11 @@ root.configure(bg="#f0f1f5")
 image_icon=PhotoImage(file="img/bmi.png")
 root.iconphoto(False,image_icon)
 
+#top image
+top=PhotoImage(file="img/top.png")
+top_image=Label(root,image=top,background='#f0f1f5')
+top_image.place(x=20,y=5)
+
 
 
 
