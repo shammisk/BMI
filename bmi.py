@@ -21,6 +21,9 @@ top=PhotoImage(file="img/top.png")
 top_image=Label(root,image=top,background='#f0f1f5')
 top_image.place(x=20,y=5)
 
+#main Label
+Label(root,width=72,height=18,bg='lightblue').pack(side=BOTTOM)
+
 
 
 
