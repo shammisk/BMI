@@ -5,7 +5,8 @@ BMI-Calculator
 
 
 
-![2](https://github.com/shammisk/BMI-Calculator/assets/99946678/8fd67377-110e-4c82-b899-3ab69cb9a2a6)
+![2](https://github.com/shammisk/BMI-Calculator/assets/99946678/8fd67377-110e-4c82-b899-3ab69cb9a2a6)     ![4](https://github.com/shammisk/BMI-Calculator/assets/99946678/efe689b2-bfbc-4c72-8351-563eb3c89e64)
+
 
 
 
