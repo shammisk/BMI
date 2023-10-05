@@ -83,6 +83,15 @@ secondimage.place(x=70,y=530)
 #button
 Button(root,text='View Report',width=15,height=2,font='arial 10 bold',bg='darkblue',fg='white',command=BMI).place(x=255,y=320)
 
+#Label
+label1=Label(root,font='arial 60 bold', bg='lightblue',fg='#fff')
+label1.place(x=240,y=360)
+
+label2=Label(root,font='arial 20 bold', bg='lightblue',fg='black')
+label2.place(x=260,y=450)
+
+label3=Label(root,font='arial 10 bold', bg='lightblue',fg='black')
+label3.place(x=180,y=500)
 
 
 
