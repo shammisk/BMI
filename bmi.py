@@ -80,6 +80,10 @@ Weight.set(get_current_value2())
 secondimage=Label(root,bg='lightblue')
 secondimage.place(x=70,y=530)
 
+#button
+Button(root,text='View Report',width=15,height=2,font='arial 10 bold',bg='darkblue',fg='white',command=BMI).place(x=255,y=320)
+
+
 
 
 
