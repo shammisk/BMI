@@ -12,6 +12,15 @@ root.geometry('470x580+300+200')
 root.resizable(False, False)
 root.configure(bg="#f0f1f5")
 
+
+def BMI():
+    h=float(Height.get())
+    w=float(Weight.get())
+
+    m=h/100
+    bmi=round(float(w/m**2),1)
+    label1.config(text=bmi)
+
 #icon image
 image_icon=PhotoImage(file="img/bmi.png")
 root.iconphoto(False,image_icon)
