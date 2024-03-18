@@ -1,12 +1,12 @@
 # BMI Calculator - Desktop Application
 
-Overview
+> Overview
 
 The BMI Calculator Desktop Application is a simple yet effective tool for calculating Body Mass Index (BMI) based on user-provided height and weight inputs. It offers a quick and convenient way to assess an individual's body weight status and categorizes it into normal, overweight, underweight, or obese levels.
 
 Features
 
-BMI Calculation:
+> BMI Calculation:
 
 Input your height and weight to calculate your BMI.
 Result Reporting:
@@ -19,7 +19,7 @@ User-Friendly Interface:
 
 Simple and intuitive interface for a hassle-free user experience.
 
-BMI calculation categorizes individuals as follows:
+> BMI calculation categorizes individuals as follows:
 - Underweight: BMI is less than 18.5
 - Normal weight: BMI is between 18.5 and 24.9
 - Overweight: BMI is between 25 and 29.9
