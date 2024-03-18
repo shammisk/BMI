@@ -1,4 +1,4 @@
-BMI Calculator Desktop Application
+# BMI Calculator - Desktop Application
 
 Overview
 
@@ -18,6 +18,14 @@ The application classifies BMI results into four categories - normal, overweight
 User-Friendly Interface:
 
 Simple and intuitive interface for a hassle-free user experience.
+
+BMI calculation categorizes individuals as follows:
+- Underweight: BMI is less than 18.5
+- Normal weight: BMI is between 18.5 and 24.9
+- Overweight: BMI is between 25 and 29.9
+- Obese: BMI is 30 or higher
+
+
 
 ![1](https://github.com/shammisk/BMI-Calculator/assets/99946678/b156de77-616d-4d28-9009-25b9180a9a01)    ![3](https://github.com/shammisk/BMI-Calculator/assets/99946678/400d11a7-d179-4f66-88c7-c5e5a1634dff)
 
